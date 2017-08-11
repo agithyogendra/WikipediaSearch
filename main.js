@@ -10,7 +10,7 @@ $(document).ready(function(){
 		if(searchIcon === true){
 			$("#submit").show();
 			$("body").css({
-			"background-color" : "#ff5252", 
+			"background-color" : "#00C851", 
 			});
 			$("#page").show();
 			$("#search").removeClass("fa-search");
