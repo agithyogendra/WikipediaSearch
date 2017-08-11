@@ -19,11 +19,10 @@ html,body{
 
 input{
 
-	font-family: 'Bree Serif', serif;
+	font-family: 'Quicksand', sans-serif;
 	outline: none;
 	border: none;
 	border-color: transparent;
-	font-size: 20px;
 	background-color: #00C851;
 	color: #fafafa ;
 }
@@ -61,11 +60,11 @@ input{
 }
 
 .collapsible-header{
-	font-family: 'Bree Serif', serif;
+	font-family: 'Quicksand', sans-serif;
 }
 
 .collapsible-body{
-	font-family: 'Bree Serif', serif;
+	font-family: 'Quicksand', sans-serif;
 	color: #fff;
 }
 
@@ -73,14 +72,14 @@ input{
 	position: relative;
 	top: -1em;
 	font-size: 30px;
-	font-family: 'Lobster', cursive;
+	font-family: 'Pacifico', cursive;
 }
 
 #search-text{
 	position: relative;
 	top: 1em;
 	font-size: 30px;
-	font-family: 'Lobster', cursive;
+	font-family: 'Pacifico', cursive;
 }
 
 #submit{
@@ -88,12 +87,10 @@ input{
 }
 
 .collapsible-header {
-  font-weight: 400;
+  font-weight: 700;
   font-size: 20px;
 }
-
 .collapsible-body {
   padding: 22px;
-  font-weight: 300;
+  font-weight: 500;
 }
-
