@@ -87,4 +87,17 @@ input{
 	font-family: 'Lobster', cursive;
 }
 
+#submit{
+	float: right;
+}
+
+.collapsible-header {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.collapsible-body {
+  padding: 22px;
+  font-weight: 300;
+}
 
