@@ -36,10 +36,6 @@ input{
 	background-color: #00C851;
 }
 
-#submit{
-	display: inline-block;
-	float: right;
-}
 .fa-search{
 	color: #ffbb33;
 }
