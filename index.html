@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<head>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<title></title>
+</head>
+<body>
+	<div class = "container" id = "back">
+		<!--First page. Click Search icon to go to second page-->
+		<div align="center">
+			<!--Random Artcicle-->
+			<a href = "https://en.wikipedia.org/wiki/Special:Random" target="_blank">
+				<p id = "random">Click here for a random article</p>
+			</a> 
+			<!--Search-->
+			<i class="fa fa-search fa-3x" id = "search" aria-hidden="true"></i>
+			<p id = "search-text">Click icon to search</p> 
+		</div>
+		<!--Second page user sees. Click Cancel icon to return to first page-->
+		<div align="center">
+			<div class = "col col-md-11">
+				<input type="text" id = "page" />
+			</div>
+			<div class = "col col-md-1">
+				<i class="fa fa-paper-plane-o fa-3x" aria-hidden="true" id = "submit"></i>
+			</div>
+			<br/>
+			<br/>
+			<br/>
+			<ul class="collapsible popout" data-collapsible="accordion" id = "list"></ul>
+		</div>
+			
+		
+	</div>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
+		<script type="text/javascript" src = "main.js"></script>
+</body>
+</html>
