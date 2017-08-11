@@ -24,7 +24,7 @@ input{
 	border: none;
 	border-color: transparent;
 	font-size: 20px;
-	background-color: #ff5252;
+	background-color: #00C851;
 	color: #fafafa ;
 }
 
@@ -33,7 +33,7 @@ input{
 }
 
 #list{
-	background-color: #ff5252;
+	background-color: #00C851;
 }
 
 #submit{
