@@ -1,4 +1,5 @@
 # WikipediaSearch
+Allows users to view either random wikipedia articles, or have wikipedia ressults displayed to them in a simplified format.
 
 ### How to use
 * Click the first link for a random article
