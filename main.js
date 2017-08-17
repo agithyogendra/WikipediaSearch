@@ -31,13 +31,15 @@ $(document).ready(function(){
 			$("#list").html("");
 			$("#random").show();
 			$("#search-text").show();
+			/*Move the input and close icon to the middle*/
+			$("#back").animate({top : "50%"});
 			/*Reset search box*/
 			document.getElementById("page").value = "";
 		}
 	});
 	/*Display Wikipedia results when submitt button is pressed*/
 	$("#submit").on("click", function(){
-		 $('.collapsible').collapsible();
+		$('.collapsible').collapsible();
 		var x = document.getElementById("page").value;
 		$.ajax({
 			url: api + x + "&limit=10&namespace=0&format=json&origin=*",
@@ -50,6 +52,8 @@ $(document).ready(function(){
 				}
 			}
 		});
+	/*Move the input and close icon to the top */
+	$("#back").animate({top : "10%"});
 	});
 
 	
