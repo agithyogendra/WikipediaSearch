@@ -55,9 +55,4 @@ $(document).ready(function(){
 	/*Move the input and close icon to the top */
 	$("#back").animate({top : "10%"});
 	});
-
-	
-
-	
-
 });
